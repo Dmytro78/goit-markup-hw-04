@@ -1,0 +1,230 @@
+:root {
+  --main-text-color: #000000;
+  --text-color: #ffffff;
+  --button-color: #2196f3;
+  --main-gray: #757575;
+  --gray-op60: #ffffff 60%;
+  --accent-background-color: #2f303a;
+  --background-color: #f5f4fa;
+}
+
+/*:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --gray-text-op100: rgba(117, 117, 117, 1);
+  --gray-text-op60: rgba(255, 255, 255, 0.6);
+  --black-text: rgba(33, 33, 33, 1);
+  --gray-background: rgba(47, 48, 58, 1);
+  --gray-background2: rgba(245, 244, 250, 1);
+}*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding-left: 0px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  /* outline: 2px solid red;*/
+}
+
+.img {
+  display: block;
+}
+
+.nav,
+.links,
+.header .contakts {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav {
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 24px 0;
+  margin-right: 43px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.links li {
+  padding-left: 50px;
+}
+
+.links li:last-child {
+  margin-right: 331px;
+}
+
+.links-item,
+.contakts-item {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  font-weight: 500;
+}
+
+.contakts li:first-child {
+  margin-right: 50px;
+}
+
+.address {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.adress {
+  color: var(--text-color);
+}
+
+.contakts-mailto,
+.contakts-tel {
+  color: var(--gray-op60);
+}
+
+.adress,
+.contakts-mailto {
+  margin-bottom: 9px;
+}
+
+.adress,
+.contakts-mailto,
+.contakts-tel {
+  display: block;
+  text-decoration: none;
+}
+
+/*.adress
+.address .contakts-item {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address .contakts-item {
+  color: var(--gray-op60);
+}
+
+.address > .contakts {
+  margin-top: 0px;
+}
+
+.address > .contakts li {
+  margin-top: 9px;
+}*/
+
+.btn,
+.logo,
+.links-item,
+.contakts-item,
+.logo-footer {
+  text-decoration: none;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.web {
+  color: var(--button-color);
+}
+
+.contakts-item {
+  color: var(--main-gray);
+  padding: 0px;
+  display: block;
+}
+
+.links-item {
+  color: var(--main-text-color);
+  text-align: center;
+  display: block;
+}
+
+.links .links-item.carrnet {
+  color: var(--button-color);
+}
+
+.links-item:hover,
+.links-item:focus,
+.contakts-item:hover,
+.contakts-item:focus {
+  color: var(--button-color);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--button-color);
+  color: var(--text-color);
+}
+
+.footer {
+  background: var(--accent-background-color);
+  color: var(--text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .contakts {
+  margin-bottom: 0px;
+}
+
+.post-title,
+.ot-list-itemh {
+  color: var(--main-text-color);
+}
+
+.post-text,
+.ot-list-itemp {
+  color: var(--main-gray);
+}
