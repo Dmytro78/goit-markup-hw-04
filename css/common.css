@@ -228,7 +228,15 @@ li {
 
 .post-icon {
   background-color: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 120px;
 }
+
 
 /*.post li::before {
   display: block;
