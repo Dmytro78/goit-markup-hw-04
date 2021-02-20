@@ -83,10 +83,6 @@ li {
   font-family: 'Raleway', sans-serif;
 }
 
-.links li {
-  padding-left: 50px;
-}
-
 .links li:last-child {
   margin-right: 331px;
 }
@@ -186,6 +182,7 @@ li {
   color: var(--main-text-color);
   text-align: center;
   display: block;
+  margin-left: 50px;
 }
 
 .links .links-item.carrnet {
@@ -228,3 +225,19 @@ li {
 .ot-list-itemp {
   color: var(--main-gray);
 }
+
+.post-icon {
+  background-color: #f5f4fa;
+}
+
+/*.post li::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-position: centr;*/
+  background-color: #f5f4fa;
+}*/
+
+
