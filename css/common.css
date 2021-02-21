@@ -119,7 +119,7 @@ li {
 
 .contakts-mailto,
 .contakts-tel {
-  color: var(--gray-op60);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .adress,
@@ -290,7 +290,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--network-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 .networksf-item:hover,
