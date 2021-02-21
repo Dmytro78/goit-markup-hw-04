@@ -126,7 +126,7 @@
   background-color: #ffffff;
 }
 
-.ot-list li {
+.ot-list-item {
   background: var(--text-color--);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -155,7 +155,8 @@
 }
 
 .clients {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients-img {
@@ -204,36 +205,30 @@
   padding-top: 16px;
 }
 
-.networks li {
+.networks-item {
   width: 44px;
   height: 44px;
-  margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: none;
-  /*border-radius: 50%;*/
+  color: var(--network-color);
+}
+
+.networks-item:hover,
+.networks-item:focus {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border-radius: 50%;
+}
+
+.network {
+  fill: currentColor;
+}
+
+.networks li {
+  margin-left: 10px;
 }
 
 .networks li:first-child {
   margin-left: 0px;
 }
-
-.network {
-  fill: #afb1b8;
-}
-
-.networks li:hover,
-.networks li:focus {
-  background-color: var(--button-color);
-  border-radius: 50%;
-}
-
-.network:hover,
-.network:focus {
-  fill: var(--text-color);
-}
-
-/*.ot .container {
-  height: 648px;
-}*/ ;
