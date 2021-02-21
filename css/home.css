@@ -2,11 +2,20 @@
   background: var(--accent-background-color);
   color: var(--text-color);
   text-align: center;
-}
-
-.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/fond.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-h1 {
@@ -146,7 +155,7 @@
 }
 
 .clients {
-  padding: 94px 215px;
+  padding: 94px;
 }
 
 .clients-img {
@@ -178,6 +187,53 @@
   padding-left: 30px;
 }
 
+.clients-list:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.icon-contakts1,
+.icon-contakts2 {
+  fill: currentColor;
+}
+
+.networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.networks li {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  /*border-radius: 50%;*/
+}
+
+.networks li:first-child {
+  margin-left: 0px;
+}
+
+.network {
+  fill: #afb1b8;
+}
+
+.networks li:hover,
+.networks li:focus {
+  background-color: var(--button-color);
+  border-radius: 50%;
+}
+
+.network:hover,
+.network:focus {
+  fill: var(--text-color);
+}
+
 /*.ot .container {
   height: 648px;
-}*/
+}*/ ;

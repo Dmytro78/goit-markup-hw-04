@@ -67,7 +67,8 @@ li {
   margin-bottom: 0px;
 }
 
-.nav {
+.nav,
+.contakts {
   padding-left: 0px;
   justify-content: space-between;
   align-items: center;
@@ -84,9 +85,10 @@ li {
 }
 
 .links li:last-child {
-  margin-right: 331px;
+  margin-right: 285px;
   
 }
+
 
 .links-item,
 .contakts-item {
@@ -99,7 +101,7 @@ li {
 }
 
 .contakts li:first-child {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .address {
@@ -176,7 +178,8 @@ li {
 .contakts-item {
   color: var(--main-gray);
   padding: 0px;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .links-item {
@@ -239,7 +242,12 @@ li {
   border-radius: 4px;
 }
 
+.icon-contakts1,
+.icon-contakts2 {
+  fill: currentColor;
+  margin-right: 10px;
 
+}
 
 
 /*.post li::before {
