@@ -254,7 +254,7 @@ li {
 }
 
 .post-icon {
-  background-color: var(--text-color);
+  background-color:#F5F4FA;
   display: flex;
   align-items: center;
   justify-content: center;
