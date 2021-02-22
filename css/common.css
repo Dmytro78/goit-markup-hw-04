@@ -163,8 +163,9 @@ li {
 
 .footer .container {
   display: flex;
-  align-items: center;
   justify-content: start;
+  align-items: baseline;
+  
 }
 
 .footer2 {
@@ -173,7 +174,7 @@ li {
 
 .footer2h {
   font-size: 14px;
-  line-height: 16,41px;
+  line-height: 16px;
   text-transform: uppercase;
   font-weight: normal
 }
@@ -200,6 +201,8 @@ li {
   padding: 0px;
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .links-item {
@@ -251,7 +254,7 @@ li {
 }
 
 .post-icon {
-  background-color: #f5f4fa;
+  background-color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,25 +263,26 @@ li {
   width: 270px;
   height: 120px;
   border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .icon-contakts1,
 .icon-contakts2 {
   fill: currentColor;
   margin-right: 10px;
-
+  display: inline-block;
+  align-items: center;
 }
 
 .footer2h {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .networksf {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
   padding-bottom: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -292,6 +296,7 @@ li {
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  fill: var(--text-color);
 }
 
 .networksf-item:hover,
@@ -323,9 +328,9 @@ li {
 }
 
 
-*.networksf li:first-child {
+/*.networksf li:first-child {
   margin-left: 0px;
-}
+}*/
 
 .networkf {
   fill: var(--text-color);
