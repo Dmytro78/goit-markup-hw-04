@@ -60,6 +60,7 @@ li {
   display: block;
 }
 
+.header .container,
 .nav,
 .links,
 .header .contakts {
@@ -85,25 +86,21 @@ li {
   font-family: 'Raleway', sans-serif;
 }
 
-.links li:last-child {
-  margin-right: 285px;
-  
+.header-contakts {
+  margin-left: auto;
 }
-
 
 .links-item,
 .contakts-item {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-top: 32px;
   font-weight: 500;
 }
 
-.contakts li:first-child {
+/*.contakts li:first-child {
   margin-right: 30px;
-}
+}*/
 
 .address {
   display: block;
@@ -168,10 +165,6 @@ li {
   
 }
 
-
-
-
-
 .logo-footer {
   display: inline-block;
   margin-top: 0px;
@@ -187,20 +180,25 @@ li {
   color: var(--button-color);
 }
 
+.links,
+.header .contakts {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .contakts-item {
   color: var(--main-gray);
   padding: 0px;
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+  padding-left: 32px;
+  }
 
 .links-item {
   color: var(--main-text-color);
   text-align: center;
   display: block;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .links .links-item.carrnet {
@@ -257,8 +255,7 @@ li {
   margin-bottom: 30px;
 }
 
-.icon-contakts1,
-.icon-contakts2 {
+.icon-contakts {
   fill: currentColor;
   margin-right: 10px;
   display: inline-block;
