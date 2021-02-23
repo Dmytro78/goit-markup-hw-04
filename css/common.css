@@ -168,16 +168,7 @@ li {
   
 }
 
-.footer2 {
-  margin-left: 70px;
-}
 
-.footer2h {
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  font-weight: normal
-}
 
 
 
@@ -274,12 +265,22 @@ li {
   align-items: center;
 }
 
-.footer2h {
-  margin-top: 0px;
-  margin-bottom: 20px;
+.footer-network {
+  margin-left: 70px;
 }
 
-.networksf {
+.join {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: normal
+}
+
+
+
+.footer-networks {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -288,7 +289,7 @@ li {
   margin-bottom: 0px;
 }
 
-.networksf-item {
+.footer-network-item {
   width: 44px;
   height: 44px;
   display: flex;
@@ -296,21 +297,23 @@ li {
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: var(--text-color);
 }
 
-.networksf-item:hover,
-.networksf-item:focus {
+.footer-network-item:hover,
+.footer-network-item:focus {
   background-color: var(--button-color);
-  color: var(--text-color);
   border-radius: 50%;
 }
 
-.networksf li {
+.footer-network .network {
+ fill: var(--text-color);
+}
+
+.footer-network li {
   margin-left: 10px;
 }
 
-.networksf li:first-child {
+.footer-networks li:first-child {
   margin-left: 0px;
 }
 
@@ -332,12 +335,9 @@ li {
   margin-left: 0px;
 }*/
 
-.networkf {
-  fill: var(--text-color);
-}
 
-.networksf li:hover,
-.networksf li:focus {
+/*.footer-networks li:hover,
+.footer-networks li:focus {
   background-color: var(--button-color);
   border-radius: 50%;
 }*/

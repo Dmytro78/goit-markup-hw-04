@@ -14,7 +14,7 @@
   line-height: 26px;
   letter-spacing: 0.03em;
   padding: 6px 22px;
-  margin-left: 8px;
+  margin-left: 0px;
   margin-top: 0px;
   text-align: center;
   border-style: hidden;
@@ -53,6 +53,14 @@
 
 .btns {
   margin-bottom: 50px;
+}
+
+.btns li {
+  margin-left: 8px;
+}
+
+.btns li:first-child {
+  margin-left: 0px;
 }
 
 .post {
